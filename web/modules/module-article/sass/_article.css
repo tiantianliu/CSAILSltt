@@ -1,0 +1,87 @@
+body a {
+  color: #273240; }
+  body a:active, body a:hover {
+    text-decoration: none; }
+
+ul, ol {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+.mgt-20 {
+  margin-bottom: 20px; }
+
+.article_part ul > li {
+  float: left;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee; }
+
+.article_container .article_content .article_answer {
+  display: inline-block;
+  width: 45px;
+  height: 40px;
+  background-color: #10acc2;
+  text-align: center;
+  margin: 0 6px; }
+  .article_container .article_content .article_answer > span {
+    display: block;
+    color: #fff; }
+.article_container .article_content .article_browse {
+  display: inline-block;
+  width: 45px;
+  height: 40px;
+  background-color: white;
+  text-align: center;
+  margin: 0 6px; }
+  .article_container .article_content .article_browse > span {
+    display: block; }
+.article_container .article_content .article_person {
+  color: #999; }
+
+.tag {
+  display: inline-block;
+  padding: 0 6px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 12px;
+  color: #fff; }
+
+.tag-green {
+  background-color: #017E66; }
+  .tag-green:hover {
+    color: #fff; }
+
+footer {
+  border-top: 1px solid #eee;
+  line-height: 1.6; }
+  footer .copy {
+    text-align: center;
+    font-size: 14px;
+    margin: 40px 0; }
+
+.rank_box .rank_title {
+  font-size: 16px;
+  border-bottom: 1px solid #ccc;
+  padding: 10px; }
+.rank_box .rank_content ul > li {
+  padding: 10px; }
+
+.rank.crown {
+  display: inline-block;
+  line-height: 42px;
+  overflow: hidden;
+  vertical-align: middle;
+  text-align: center;
+  background-position: 0 0;
+  width: 40px;
+  height: 28px;
+  background-image: url(../img/rank.png);
+  background-repeat: no-repeat; }
+
+.crown.crown-2nd {
+  background-position: 0 -29px; }
+
+.crown.crown-3rd {
+  background-position: 0 -58px; }
+
+/*# sourceMappingURL=_article.css.map */
